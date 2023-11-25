@@ -1591,6 +1591,9 @@
 .fa-twitch:before {
   content: "\f1e8";
 }
+.fa-chess:before {
+  content: "\f439";
+}
 .fa-yelp:before {
   content: "\f1e9";
 }
