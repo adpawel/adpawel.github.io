@@ -6,20 +6,39 @@
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
         </div>
-        <div class="row">
-            <ul class="list-inline social-buttons">
-                {% for network in member.social %}
-                <li>
-                    <a href="{{ network.url }}">
-                        <i class="fa fa-{{ network.title }}"></i>
-                    </a>
-                </li>
-                {% endfor %}
+        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-            </ul>
-            
-        </div>
-        <div class="row">
+        .circle-container {
+            width: 200px; /* dostosuj wielkość koła według własnych preferencji */
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .circle-image {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+    <title>Koło na środku strony</title>
+</head>
+<body>
+    <div class="circle-container">
+        <img class="circle-image" src="img/IT.png" alt="Opis zdjecia">
+    </div>
+</body>
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <p class="large text-muted"><a href="https://github.com/y7kim/agency-jekyll-theme">Link</a> do użytego szablonu.</p>
             </div>
