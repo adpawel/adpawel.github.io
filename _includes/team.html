@@ -7,13 +7,16 @@
             </div>
         </div>
         <div class="row">
-                        {% for network in member.social %}
-                        <li>
-                            <a href="{{ network.url }}">
-                                <i class="fa fa-{{ network.title }}"></i>
-                            </a>
-                        </li>
-                        {% endfor %}
+            <ul class="list-inline social-buttons">
+                {% for network in member.social %}
+                <li>
+                    <a href="{{ network.url }}">
+                        <i class="fa fa-{{ network.title }}"></i>
+                    </a>
+                </li>
+                {% endfor %}
+
+            </ul>
             
         </div>
         <div class="row">
