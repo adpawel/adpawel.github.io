@@ -609,7 +609,7 @@
 .fa-upload:before {
   content: "\f093";
 }
-.fas fa-chess-knight {
+.fas fa-chess-knight:before {
   content: "\f441";
 }
 .fa-lemon-o:before {
