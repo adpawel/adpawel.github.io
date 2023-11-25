@@ -13,11 +13,11 @@ people:
   pic: 2
   position: Lead Marketer
   social:
-    - title: twitter
+    - title: instagram
       url: #
     - title: facebook
       url: #
-    - title: linkedin
+    - title: gmail
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -31,7 +31,7 @@ social:
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/adpawel
 
 # Postal address (add as many lines as necessary)
 address:
