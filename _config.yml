@@ -8,16 +8,6 @@ description: "Official desprition"
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
 
 - name: Larry Parker
   pic: 2
@@ -30,23 +20,12 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+    url: https://www.instagram.com/pavv_ada/?igshid=M2RkZGJiMzhjOQ%3D%3D&fbclid=IwAR1Xf0V-GC1yDcy_xtqQrQflIRCzdkLt8r7L0UxoCLMH4gOMgovdkyuGIg0
   - title: facebook
-    url:
+    url: https://www.facebook.com/profile.php?id=100022730723736&sk=about
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket 
